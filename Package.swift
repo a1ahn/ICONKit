@@ -21,6 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "ICONKit-ios",
-            dependencies: ["BigInt", "CryptoSwift", "secp256k1"]),
+            dependencies: ["BigInt", "CryptoSwift", "secp256k1"],
+            path: "Source"
+        ),
     ]
 )
