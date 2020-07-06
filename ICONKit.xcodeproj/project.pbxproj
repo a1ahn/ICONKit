@@ -28,6 +28,29 @@
 		D4E25BCB212FABD90027899B /* Common+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BC1212FABD90027899B /* Common+Extension.swift */; };
 		D4E25BCC212FABD90027899B /* ICON+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BC2212FABD90027899B /* ICON+Util.swift */; };
 		D4E25BCF212FAEF20027899B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E25BCE212FAEF20027899B /* Security.framework */; };
+		D4F7BC0C24B2CCA0001B9266 /* ICONKit_macos.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F7BC0A24B2CCA0001B9266 /* ICONKit_macos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4F7BC1024B2CCB8001B9266 /* ICON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BBA212FABD90027899B /* ICON.swift */; };
+		D4F7BC1124B2CCBC001B9266 /* ICON+Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44F2F1E217EE3A5008B4D1F /* ICON+Address.swift */; };
+		D4F7BC1224B2CCBF001B9266 /* ICON+Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DE9A2A218AC5EA00126CAD /* ICON+Amount.swift */; };
+		D4F7BC1324B2CCC3001B9266 /* ICON+Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E4746214925E8007A0B26 /* ICON+Call.swift */; };
+		D4F7BC1424B2CCC7001B9266 /* ICON+Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE20F3220043D900A6EF90 /* ICON+Converter.swift */; };
+		D4F7BC1524B2CCCA001B9266 /* ICON+Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D81382240D0D50077375B /* ICON+Cipher.swift */; };
+		D4F7BC1624B2CCCE001B9266 /* ICON+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BBE212FABD90027899B /* ICON+Error.swift */; };
+		D4F7BC1724B2CCD1001B9266 /* ICON+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D413D09B21FEBACA00A45F88 /* ICON+Key.swift */; };
+		D4F7BC1824B2CCD4001B9266 /* ICON+Keystore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D81362240C7CF0077375B /* ICON+Keystore.swift */; };
+		D4F7BC1924B2CCD8001B9266 /* ICON+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4ED55217EC39F004F2D83 /* ICON+Request.swift */; };
+		D4F7BC1A24B2CCDB001B9266 /* ICON+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E4748214928C6007A0B26 /* ICON+Response.swift */; };
+		D4F7BC1B24B2CCDE001B9266 /* ICON+Send.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4ED53217EBB1E004F2D83 /* ICON+Send.swift */; };
+		D4F7BC1C24B2CF37001B9266 /* ICON+Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BBB212FABD90027899B /* ICON+Signer.swift */; };
+		D4F7BC1D24B2CF37001B9266 /* ICON+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D813A2240DB070077375B /* ICON+Store.swift */; };
+		D4F7BC1E24B2CF37001B9266 /* ICON+Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40FA03421478E3600CB8E6E /* ICON+Transaction.swift */; };
+		D4F7BC1F24B2CF37001B9266 /* ICON+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BC2212FABD90027899B /* ICON+Util.swift */; };
+		D4F7BC2024B2CF37001B9266 /* ICON+Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BBC212FABD90027899B /* ICON+Wallet.swift */; };
+		D4F7BC2124B2CF37001B9266 /* Common+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BC1212FABD90027899B /* Common+Extension.swift */; };
+		D4F7BC2224B2CF37001B9266 /* ICONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D181B2134014600BEAA2F /* ICONService.swift */; };
+		D4F7BC2424B2CF88001B9266 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D4F7BC2324B2CF88001B9266 /* CryptoSwift */; };
+		D4F7BC2624B2CF88001B9266 /* secp256k1 in Frameworks */ = {isa = PBXBuildFile; productRef = D4F7BC2524B2CF88001B9266 /* secp256k1 */; };
+		D4F7BC2824B2CF88001B9266 /* BigInt in Frameworks */ = {isa = PBXBuildFile; productRef = D4F7BC2724B2CF88001B9266 /* BigInt */; };
 		D4FD1E8F24AC8207004CE2F3 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D4FD1E8E24AC8207004CE2F3 /* CryptoSwift */; };
 		D4FD1E9524AC82ED004CE2F3 /* secp256k1 in Frameworks */ = {isa = PBXBuildFile; productRef = D4FD1E9424AC82ED004CE2F3 /* secp256k1 */; };
 		D4FD1E9924AC8712004CE2F3 /* BigInt in Frameworks */ = {isa = PBXBuildFile; productRef = D4FD1E9824AC8712004CE2F3 /* BigInt */; };
@@ -58,6 +81,9 @@
 		D4E25BC1212FABD90027899B /* Common+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Common+Extension.swift"; sourceTree = "<group>"; };
 		D4E25BC2212FABD90027899B /* ICON+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ICON+Util.swift"; sourceTree = "<group>"; };
 		D4E25BCE212FAEF20027899B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D4F7BC0824B2CCA0001B9266 /* ICONKit_macos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ICONKit_macos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F7BC0A24B2CCA0001B9266 /* ICONKit_macos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICONKit_macos.h; sourceTree = "<group>"; };
+		D4F7BC0B24B2CCA0001B9266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4FD1E9624AC8577004CE2F3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +96,16 @@
 				D4FD1E9524AC82ED004CE2F3 /* secp256k1 in Frameworks */,
 				D4FD1E8F24AC8207004CE2F3 /* CryptoSwift in Frameworks */,
 				D4FD1E9924AC8712004CE2F3 /* BigInt in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F7BC0524B2CCA0001B9266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F7BC2824B2CF88001B9266 /* BigInt in Frameworks */,
+				D4F7BC2424B2CF88001B9266 /* CryptoSwift in Frameworks */,
+				D4F7BC2624B2CF88001B9266 /* secp256k1 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +126,7 @@
 				D45718992244B026005B98F1 /* README.md */,
 				D4E25BB9212FABD90027899B /* Source */,
 				D4E25B9A212FA7C50027899B /* ICONKit */,
+				D4F7BC0924B2CCA0001B9266 /* ICONKit-macos */,
 				D4E25B99212FA7C50027899B /* Products */,
 				D57DB1AC9E2D3E248AF94E46 /* Frameworks */,
 				B8A35A0DD8B8B8F531AC412A /* Pods */,
@@ -100,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				D4E25B98212FA7C50027899B /* ICONKit-ios.framework */,
+				D4F7BC0824B2CCA0001B9266 /* ICONKit_macos.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,6 +177,15 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		D4F7BC0924B2CCA0001B9266 /* ICONKit-macos */ = {
+			isa = PBXGroup;
+			children = (
+				D4F7BC0A24B2CCA0001B9266 /* ICONKit_macos.h */,
+				D4F7BC0B24B2CCA0001B9266 /* Info.plist */,
+			);
+			path = "ICONKit-macos";
+			sourceTree = "<group>";
+		};
 		D57DB1AC9E2D3E248AF94E46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +202,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4E25BA9212FA7C60027899B /* ICONKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F7BC0324B2CCA0001B9266 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F7BC0C24B2CCA0001B9266 /* ICONKit_macos.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +239,29 @@
 			productReference = D4E25B98212FA7C50027899B /* ICONKit-ios.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D4F7BC0724B2CCA0001B9266 /* ICONKit-macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4F7BC0D24B2CCA0001B9266 /* Build configuration list for PBXNativeTarget "ICONKit-macos" */;
+			buildPhases = (
+				D4F7BC0324B2CCA0001B9266 /* Headers */,
+				D4F7BC0424B2CCA0001B9266 /* Sources */,
+				D4F7BC0524B2CCA0001B9266 /* Frameworks */,
+				D4F7BC0624B2CCA0001B9266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ICONKit-macos";
+			packageProductDependencies = (
+				D4F7BC2324B2CF88001B9266 /* CryptoSwift */,
+				D4F7BC2524B2CF88001B9266 /* secp256k1 */,
+				D4F7BC2724B2CF88001B9266 /* BigInt */,
+			);
+			productName = "ICONKit-macos";
+			productReference = D4F7BC0824B2CCA0001B9266 /* ICONKit_macos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +275,9 @@
 					D4E25B97212FA7C50027899B = {
 						CreatedOnToolsVersion = 9.4;
 						LastSwiftMigration = 1000;
+					};
+					D4F7BC0724B2CCA0001B9266 = {
+						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
@@ -219,12 +300,20 @@
 			projectRoot = "";
 			targets = (
 				D4E25B97212FA7C50027899B /* ICONKit-ios */,
+				D4F7BC0724B2CCA0001B9266 /* ICONKit-macos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D4E25B96212FA7C50027899B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F7BC0624B2CCA0001B9266 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,6 +346,32 @@
 				D4E25BCC212FABD90027899B /* ICON+Util.swift in Sources */,
 				D4E25BC8212FABD90027899B /* ICON+Error.swift in Sources */,
 				D45D813B2240DB070077375B /* ICON+Store.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F7BC0424B2CCA0001B9266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F7BC1C24B2CF37001B9266 /* ICON+Signer.swift in Sources */,
+				D4F7BC1D24B2CF37001B9266 /* ICON+Store.swift in Sources */,
+				D4F7BC1E24B2CF37001B9266 /* ICON+Transaction.swift in Sources */,
+				D4F7BC1F24B2CF37001B9266 /* ICON+Util.swift in Sources */,
+				D4F7BC2024B2CF37001B9266 /* ICON+Wallet.swift in Sources */,
+				D4F7BC2124B2CF37001B9266 /* Common+Extension.swift in Sources */,
+				D4F7BC2224B2CF37001B9266 /* ICONService.swift in Sources */,
+				D4F7BC1824B2CCD4001B9266 /* ICON+Keystore.swift in Sources */,
+				D4F7BC1A24B2CCDB001B9266 /* ICON+Response.swift in Sources */,
+				D4F7BC1024B2CCB8001B9266 /* ICON.swift in Sources */,
+				D4F7BC1624B2CCCE001B9266 /* ICON+Error.swift in Sources */,
+				D4F7BC1124B2CCBC001B9266 /* ICON+Address.swift in Sources */,
+				D4F7BC1424B2CCC7001B9266 /* ICON+Converter.swift in Sources */,
+				D4F7BC1524B2CCCA001B9266 /* ICON+Cipher.swift in Sources */,
+				D4F7BC1324B2CCC3001B9266 /* ICON+Call.swift in Sources */,
+				D4F7BC1B24B2CCDE001B9266 /* ICON+Send.swift in Sources */,
+				D4F7BC1724B2CCD1001B9266 /* ICON+Key.swift in Sources */,
+				D4F7BC1924B2CCD8001B9266 /* ICON+Request.swift in Sources */,
+				D4F7BC1224B2CCBF001B9266 /* ICON+Amount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,18 +512,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 27F4PR54DX;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ICONKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MARKETING_VERSION = 0.5.0;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = iconf.foundation.ICONKit;
+				PRODUCT_BUNDLE_IDENTIFIER = icon.foundation.ICONKit;
 				PRODUCT_NAME = "ICONKit-ios";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(inherited)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -427,17 +543,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 27F4PR54DX;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ICONKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MARKETING_VERSION = 0.5.0;
-				PRODUCT_BUNDLE_IDENTIFIER = iconf.foundation.ICONKit;
+				PRODUCT_BUNDLE_IDENTIFIER = icon.foundation.ICONKit;
 				PRODUCT_NAME = "ICONKit-ios";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(inherited)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -449,6 +566,60 @@
 					"$(inherited)",
 				);
 				VALID_ARCHS = "arm64 arm64e armv7s";
+			};
+			name = Release;
+		};
+		D4F7BC0E24B2CCA0001B9266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "ICONKit-macos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.icontrol.macos.ICONKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D4F7BC0F24B2CCA0001B9266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "ICONKit-macos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.icontrol.macos.ICONKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -469,6 +640,15 @@
 			buildConfigurations = (
 				D4E25BAD212FA7C60027899B /* Debug */,
 				D4E25BAE212FA7C60027899B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4F7BC0D24B2CCA0001B9266 /* Build configuration list for PBXNativeTarget "ICONKit-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F7BC0E24B2CCA0001B9266 /* Debug */,
+				D4F7BC0F24B2CCA0001B9266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -503,6 +683,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D4F7BC2324B2CF88001B9266 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4FD1E8D24AC8207004CE2F3 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+		D4F7BC2524B2CF88001B9266 /* secp256k1 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4FD1E9324AC82ED004CE2F3 /* XCRemoteSwiftPackageReference "secp256k1" */;
+			productName = secp256k1;
+		};
+		D4F7BC2724B2CF88001B9266 /* BigInt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4FD1E9724AC8712004CE2F3 /* XCRemoteSwiftPackageReference "BigInt" */;
+			productName = BigInt;
+		};
 		D4FD1E8E24AC8207004CE2F3 /* CryptoSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D4FD1E8D24AC8207004CE2F3 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
