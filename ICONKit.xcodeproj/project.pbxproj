@@ -27,30 +27,6 @@
 		D4E25BC8212FABD90027899B /* ICON+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BBE212FABD90027899B /* ICON+Error.swift */; };
 		D4E25BCB212FABD90027899B /* Common+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BC1212FABD90027899B /* Common+Extension.swift */; };
 		D4E25BCC212FABD90027899B /* ICON+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BC2212FABD90027899B /* ICON+Util.swift */; };
-		D4E25BCF212FAEF20027899B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E25BCE212FAEF20027899B /* Security.framework */; };
-		D4F7BC0C24B2CCA0001B9266 /* ICONKit_macos.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F7BC0A24B2CCA0001B9266 /* ICONKit_macos.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4F7BC1024B2CCB8001B9266 /* ICON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BBA212FABD90027899B /* ICON.swift */; };
-		D4F7BC1124B2CCBC001B9266 /* ICON+Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44F2F1E217EE3A5008B4D1F /* ICON+Address.swift */; };
-		D4F7BC1224B2CCBF001B9266 /* ICON+Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DE9A2A218AC5EA00126CAD /* ICON+Amount.swift */; };
-		D4F7BC1324B2CCC3001B9266 /* ICON+Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E4746214925E8007A0B26 /* ICON+Call.swift */; };
-		D4F7BC1424B2CCC7001B9266 /* ICON+Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE20F3220043D900A6EF90 /* ICON+Converter.swift */; };
-		D4F7BC1524B2CCCA001B9266 /* ICON+Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D81382240D0D50077375B /* ICON+Cipher.swift */; };
-		D4F7BC1624B2CCCE001B9266 /* ICON+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BBE212FABD90027899B /* ICON+Error.swift */; };
-		D4F7BC1724B2CCD1001B9266 /* ICON+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D413D09B21FEBACA00A45F88 /* ICON+Key.swift */; };
-		D4F7BC1824B2CCD4001B9266 /* ICON+Keystore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D81362240C7CF0077375B /* ICON+Keystore.swift */; };
-		D4F7BC1924B2CCD8001B9266 /* ICON+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4ED55217EC39F004F2D83 /* ICON+Request.swift */; };
-		D4F7BC1A24B2CCDB001B9266 /* ICON+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E4748214928C6007A0B26 /* ICON+Response.swift */; };
-		D4F7BC1B24B2CCDE001B9266 /* ICON+Send.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4ED53217EBB1E004F2D83 /* ICON+Send.swift */; };
-		D4F7BC1C24B2CF37001B9266 /* ICON+Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BBB212FABD90027899B /* ICON+Signer.swift */; };
-		D4F7BC1D24B2CF37001B9266 /* ICON+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D813A2240DB070077375B /* ICON+Store.swift */; };
-		D4F7BC1E24B2CF37001B9266 /* ICON+Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40FA03421478E3600CB8E6E /* ICON+Transaction.swift */; };
-		D4F7BC1F24B2CF37001B9266 /* ICON+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BC2212FABD90027899B /* ICON+Util.swift */; };
-		D4F7BC2024B2CF37001B9266 /* ICON+Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BBC212FABD90027899B /* ICON+Wallet.swift */; };
-		D4F7BC2124B2CF37001B9266 /* Common+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BC1212FABD90027899B /* Common+Extension.swift */; };
-		D4F7BC2224B2CF37001B9266 /* ICONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D181B2134014600BEAA2F /* ICONService.swift */; };
-		D4F7BC2424B2CF88001B9266 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D4F7BC2324B2CF88001B9266 /* CryptoSwift */; };
-		D4F7BC2624B2CF88001B9266 /* secp256k1 in Frameworks */ = {isa = PBXBuildFile; productRef = D4F7BC2524B2CF88001B9266 /* secp256k1 */; };
-		D4F7BC2824B2CF88001B9266 /* BigInt in Frameworks */ = {isa = PBXBuildFile; productRef = D4F7BC2724B2CF88001B9266 /* BigInt */; };
 		D4FD1E8F24AC8207004CE2F3 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D4FD1E8E24AC8207004CE2F3 /* CryptoSwift */; };
 		D4FD1E9524AC82ED004CE2F3 /* secp256k1 in Frameworks */ = {isa = PBXBuildFile; productRef = D4FD1E9424AC82ED004CE2F3 /* secp256k1 */; };
 		D4FD1E9924AC8712004CE2F3 /* BigInt in Frameworks */ = {isa = PBXBuildFile; productRef = D4FD1E9824AC8712004CE2F3 /* BigInt */; };
@@ -92,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E25BCF212FAEF20027899B /* Security.framework in Frameworks */,
 				D4FD1E9524AC82ED004CE2F3 /* secp256k1 in Frameworks */,
 				D4FD1E8F24AC8207004CE2F3 /* CryptoSwift in Frameworks */,
 				D4FD1E9924AC8712004CE2F3 /* BigInt in Frameworks */,

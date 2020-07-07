@@ -3,51 +3,26 @@
 <p align="left">
   <img alt="Swift" src="https://img.shields.io/badge/Swift-5-orange.svg">
   <img alt="ICONKit-license" src="https://img.shields.io/github/license/icon-project/ICONKit.svg">
-  <a href="https://cocoapods.org/pods/ICONKit" target="_blank">
-    <img alt="CocoaPods" src="https://img.shields.io/cocoapods/v/ICONKit.svg">
-  </a>
-  <a href="https://github.com/icon-project/ICONKit" target="_blank">
-    <img alt="Platform" src="https://img.shields.io/cocoapods/p/ICONKit.svg">
-  </a>
+  <img alt="Swift Package Manager" src="https://img.shields.io/badge/SMP-Available-blue.svg">
 </p>
 
 ICON supports SDK for 3rd party or user services development. You can integrate ICON SDK for your project and utilize ICON’s functionality.
 * ICONKit now provide Swift 5
 
+## Requirements
+
+- iOS 11.0+
+- Xcode 11+
+- Swift 5.2+
+
 ## Installation
 
-### CocoaPods
-
-[CocoaPods](https://cocoapods.org/) is a dependency manager for Swift Cocoa projects.
+### Swift Package Manager
 
 ```
-$ sudo gem install cocoapods
-```
-
-To integrate ICONKit into your project, specify it in your `Podfile`
-
-```
-target '<Your Target Name>' do
-    use_frameworks!
-    ...
-    pod 'ICONKit', '~> 0.4.3'
-    ...
-end
-```
-
-Now install the ICONKit. 
-
-```
-$ pod install
-```
-
-#### Swift 4.x version
-
-[0.3.2](https://github.com/icon-project/ICONKit/releases/tag/0.3.2) is a last version of ICONKit for Swift 4.x. 
-
-try 
-```
-pod 'ICONKit', '0.3.2'
+dependencies: [
+    .package(url: "https://github.com/icontrol-team/ICONKit.git", .upToNextMajor(from: "0.5.0"))
+]
 ```
 
 ## Quick start
