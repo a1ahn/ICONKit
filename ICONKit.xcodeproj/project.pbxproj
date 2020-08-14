@@ -9,6 +9,31 @@
 /* Begin PBXBuildFile section */
 		D40FA03521478E3600CB8E6E /* ICON+Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40FA03421478E3600CB8E6E /* ICON+Transaction.swift */; };
 		D413D09C21FEBACA00A45F88 /* ICON+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D413D09B21FEBACA00A45F88 /* ICON+Key.swift */; };
+		D44860EE24B4518600128B3A /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D4F7BC2324B2CF88001B9266 /* CryptoSwift */; };
+		D44860EF24B4518600128B3A /* secp256k1 in Frameworks */ = {isa = PBXBuildFile; productRef = D4F7BC2524B2CF88001B9266 /* secp256k1 */; };
+		D44860F024B4518600128B3A /* BigInt in Frameworks */ = {isa = PBXBuildFile; productRef = D4F7BC2724B2CF88001B9266 /* BigInt */; };
+		D448610124B45DC400128B3A /* ICON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BBA212FABD90027899B /* ICON.swift */; };
+		D448610224B45DC400128B3A /* ICON+Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44F2F1E217EE3A5008B4D1F /* ICON+Address.swift */; };
+		D448610324B45DC400128B3A /* ICON+Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DE9A2A218AC5EA00126CAD /* ICON+Amount.swift */; };
+		D448610424B45DC400128B3A /* ICON+Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E4746214925E8007A0B26 /* ICON+Call.swift */; };
+		D448610524B45DC400128B3A /* ICON+Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE20F3220043D900A6EF90 /* ICON+Converter.swift */; };
+		D448610624B45DC400128B3A /* ICON+Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D81382240D0D50077375B /* ICON+Cipher.swift */; };
+		D448610724B45DC400128B3A /* ICON+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BBE212FABD90027899B /* ICON+Error.swift */; };
+		D448610824B45DC400128B3A /* ICON+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D413D09B21FEBACA00A45F88 /* ICON+Key.swift */; };
+		D448610924B45DC400128B3A /* ICON+Keystore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D81362240C7CF0077375B /* ICON+Keystore.swift */; };
+		D448610A24B45DC400128B3A /* ICON+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4ED55217EC39F004F2D83 /* ICON+Request.swift */; };
+		D448610B24B45DC400128B3A /* ICON+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E4748214928C6007A0B26 /* ICON+Response.swift */; };
+		D448610C24B45DC400128B3A /* ICON+Send.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4ED53217EBB1E004F2D83 /* ICON+Send.swift */; };
+		D448610D24B45DC400128B3A /* ICON+Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BBB212FABD90027899B /* ICON+Signer.swift */; };
+		D448610E24B45DC400128B3A /* ICON+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D813A2240DB070077375B /* ICON+Store.swift */; };
+		D448610F24B45DC400128B3A /* ICON+Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40FA03421478E3600CB8E6E /* ICON+Transaction.swift */; };
+		D448611024B45DC400128B3A /* ICON+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BC2212FABD90027899B /* ICON+Util.swift */; };
+		D448611124B45DC400128B3A /* ICON+Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BBC212FABD90027899B /* ICON+Wallet.swift */; };
+		D448611224B45DC400128B3A /* Common+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E25BC1212FABD90027899B /* Common+Extension.swift */; };
+		D448611324B45DC400128B3A /* ICONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D181B2134014600BEAA2F /* ICONService.swift */; };
+		D448611424B45DD100128B3A /* ICONKit_macos.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F7BC0A24B2CCA0001B9266 /* ICONKit_macos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D448611824B45F3100128B3A /* ICON+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448611724B45F3100128B3A /* ICON+Extension.swift */; };
+		D448611924B45F4500128B3A /* ICON+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448611724B45F3100128B3A /* ICON+Extension.swift */; };
 		D44F2F1F217EE3A5008B4D1F /* ICON+Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44F2F1E217EE3A5008B4D1F /* ICON+Address.swift */; };
 		D45D81372240C7CF0077375B /* ICON+Keystore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D81362240C7CF0077375B /* ICON+Keystore.swift */; };
 		D45D81392240D0D50077375B /* ICON+Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D81382240D0D50077375B /* ICON+Cipher.swift */; };
@@ -35,6 +60,7 @@
 /* Begin PBXFileReference section */
 		D40FA03421478E3600CB8E6E /* ICON+Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ICON+Transaction.swift"; sourceTree = "<group>"; };
 		D413D09B21FEBACA00A45F88 /* ICON+Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ICON+Key.swift"; sourceTree = "<group>"; };
+		D448611724B45F3100128B3A /* ICON+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ICON+Extension.swift"; sourceTree = "<group>"; };
 		D44F2F1E217EE3A5008B4D1F /* ICON+Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ICON+Address.swift"; sourceTree = "<group>"; };
 		D45718992244B026005B98F1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D45D81362240C7CF0077375B /* ICON+Keystore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ICON+Keystore.swift"; sourceTree = "<group>"; };
@@ -47,7 +73,7 @@
 		D4D4ED53217EBB1E004F2D83 /* ICON+Send.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ICON+Send.swift"; sourceTree = "<group>"; };
 		D4D4ED55217EC39F004F2D83 /* ICON+Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ICON+Request.swift"; sourceTree = "<group>"; };
 		D4DE9A2A218AC5EA00126CAD /* ICON+Amount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ICON+Amount.swift"; sourceTree = "<group>"; };
-		D4E25B98212FA7C50027899B /* ICONKit-ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "ICONKit-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E25B98212FA7C50027899B /* ICONKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ICONKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E25B9B212FA7C50027899B /* ICONKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICONKit.h; sourceTree = "<group>"; };
 		D4E25B9C212FA7C50027899B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E25BBA212FABD90027899B /* ICON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICON.swift; sourceTree = "<group>"; };
@@ -78,9 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F7BC2824B2CF88001B9266 /* BigInt in Frameworks */,
-				D4F7BC2424B2CF88001B9266 /* CryptoSwift in Frameworks */,
-				D4F7BC2624B2CF88001B9266 /* secp256k1 in Frameworks */,
+				D44860F024B4518600128B3A /* BigInt in Frameworks */,
+				D44860EE24B4518600128B3A /* CryptoSwift in Frameworks */,
+				D44860EF24B4518600128B3A /* secp256k1 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +118,14 @@
 			children = (
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D448611624B45F1100128B3A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D448611724B45F3100128B3A /* ICON+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D4E25B8E212FA7C50027899B = {
@@ -111,7 +145,7 @@
 		D4E25B99212FA7C50027899B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4E25B98212FA7C50027899B /* ICONKit-ios.framework */,
+				D4E25B98212FA7C50027899B /* ICONKit.framework */,
 				D4F7BC0824B2CCA0001B9266 /* ICONKit_macos.framework */,
 			);
 			name = Products;
@@ -129,6 +163,7 @@
 		D4E25BB9212FABD90027899B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D448611624B45F1100128B3A /* Extensions */,
 				D4E25BBA212FABD90027899B /* ICON.swift */,
 				D44F2F1E217EE3A5008B4D1F /* ICON+Address.swift */,
 				D4DE9A2A218AC5EA00126CAD /* ICON+Amount.swift */,
@@ -184,7 +219,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F7BC0C24B2CCA0001B9266 /* ICONKit_macos.h in Headers */,
+				D448611424B45DD100128B3A /* ICONKit_macos.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +246,7 @@
 				D4FD1E9824AC8712004CE2F3 /* BigInt */,
 			);
 			productName = ICONKit;
-			productReference = D4E25B98212FA7C50027899B /* ICONKit-ios.framework */;
+			productReference = D4E25B98212FA7C50027899B /* ICONKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D4F7BC0724B2CCA0001B9266 /* ICONKit-macos */ = {
@@ -243,7 +278,7 @@
 		D4E25B8F212FA7C50027899B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "ICON Foundation";
 				TargetAttributes = {
@@ -306,6 +341,7 @@
 				D4E25BC5212FABD90027899B /* ICON+Signer.swift in Sources */,
 				D49E4747214925E8007A0B26 /* ICON+Call.swift in Sources */,
 				D4D4ED56217EC39F004F2D83 /* ICON+Request.swift in Sources */,
+				D448611824B45F3100128B3A /* ICON+Extension.swift in Sources */,
 				D40FA03521478E3600CB8E6E /* ICON+Transaction.swift in Sources */,
 				D4E25BC6212FABD90027899B /* ICON+Wallet.swift in Sources */,
 				D45D81392240D0D50077375B /* ICON+Cipher.swift in Sources */,
@@ -328,25 +364,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F7BC1C24B2CF37001B9266 /* ICON+Signer.swift in Sources */,
-				D4F7BC1D24B2CF37001B9266 /* ICON+Store.swift in Sources */,
-				D4F7BC1E24B2CF37001B9266 /* ICON+Transaction.swift in Sources */,
-				D4F7BC1F24B2CF37001B9266 /* ICON+Util.swift in Sources */,
-				D4F7BC2024B2CF37001B9266 /* ICON+Wallet.swift in Sources */,
-				D4F7BC2124B2CF37001B9266 /* Common+Extension.swift in Sources */,
-				D4F7BC2224B2CF37001B9266 /* ICONService.swift in Sources */,
-				D4F7BC1824B2CCD4001B9266 /* ICON+Keystore.swift in Sources */,
-				D4F7BC1A24B2CCDB001B9266 /* ICON+Response.swift in Sources */,
-				D4F7BC1024B2CCB8001B9266 /* ICON.swift in Sources */,
-				D4F7BC1624B2CCCE001B9266 /* ICON+Error.swift in Sources */,
-				D4F7BC1124B2CCBC001B9266 /* ICON+Address.swift in Sources */,
-				D4F7BC1424B2CCC7001B9266 /* ICON+Converter.swift in Sources */,
-				D4F7BC1524B2CCCA001B9266 /* ICON+Cipher.swift in Sources */,
-				D4F7BC1324B2CCC3001B9266 /* ICON+Call.swift in Sources */,
-				D4F7BC1B24B2CCDE001B9266 /* ICON+Send.swift in Sources */,
-				D4F7BC1724B2CCD1001B9266 /* ICON+Key.swift in Sources */,
-				D4F7BC1924B2CCD8001B9266 /* ICON+Request.swift in Sources */,
-				D4F7BC1224B2CCBF001B9266 /* ICON+Amount.swift in Sources */,
+				D448610924B45DC400128B3A /* ICON+Keystore.swift in Sources */,
+				D448610B24B45DC400128B3A /* ICON+Response.swift in Sources */,
+				D448610E24B45DC400128B3A /* ICON+Store.swift in Sources */,
+				D448610124B45DC400128B3A /* ICON.swift in Sources */,
+				D448611924B45F4500128B3A /* ICON+Extension.swift in Sources */,
+				D448610724B45DC400128B3A /* ICON+Error.swift in Sources */,
+				D448610224B45DC400128B3A /* ICON+Address.swift in Sources */,
+				D448610524B45DC400128B3A /* ICON+Converter.swift in Sources */,
+				D448610624B45DC400128B3A /* ICON+Cipher.swift in Sources */,
+				D448610424B45DC400128B3A /* ICON+Call.swift in Sources */,
+				D448610F24B45DC400128B3A /* ICON+Transaction.swift in Sources */,
+				D448610C24B45DC400128B3A /* ICON+Send.swift in Sources */,
+				D448610824B45DC400128B3A /* ICON+Key.swift in Sources */,
+				D448611024B45DC400128B3A /* ICON+Util.swift in Sources */,
+				D448610A24B45DC400128B3A /* ICON+Request.swift in Sources */,
+				D448611224B45DC400128B3A /* Common+Extension.swift in Sources */,
+				D448610324B45DC400128B3A /* ICON+Amount.swift in Sources */,
+				D448611324B45DC400128B3A /* ICONService.swift in Sources */,
+				D448610D24B45DC400128B3A /* ICON+Signer.swift in Sources */,
+				D448611124B45DC400128B3A /* ICON+Wallet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +536,7 @@
 				MARKETING_VERSION = 0.5.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = icon.foundation.ICONKit;
-				PRODUCT_NAME = "ICONKit-ios";
+				PRODUCT_NAME = ICONKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
@@ -530,7 +567,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MARKETING_VERSION = 0.5.0;
 				PRODUCT_BUNDLE_IDENTIFIER = icon.foundation.ICONKit;
-				PRODUCT_NAME = "ICONKit-ios";
+				PRODUCT_NAME = ICONKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;

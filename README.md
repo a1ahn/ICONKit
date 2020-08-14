@@ -7,7 +7,8 @@
 </p>
 
 ICON supports SDK for 3rd party or user services development. You can integrate ICON SDK for your project and utilize ICON’s functionality.
-* ICONKit now provide Swift 5
+
+# **This is not an official version.
 
 ## Requirements
 
