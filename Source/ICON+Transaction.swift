@@ -110,7 +110,7 @@ open class Transaction {
             params["nonce"] = nonce
         }
         
-        if var dic = self.data as? [String: Any] {
+        if let dic = self.data as? [String: Any] {
             if let method = dic["method"], let parameters = dic["params"] {
                 params["data"] = ["method": method, "params": parameters]
             }

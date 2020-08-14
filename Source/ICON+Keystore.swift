@@ -68,8 +68,8 @@ extension Keystore {
                 let salt = crypto.kdfparams.salt.hexToData(),
                 let count = crypto.kdfparams.c else { throw ICError.invalid(reason: .malformedKeystore) }
             
-            guard let devKey = Cipher.pbkdf2SHA256(password: password, salt: salt, keyByteCount: PBE_DKLEN, round: count) else { throw ICError.fail(reason: .decrypt) }
-            
+            guard let devKeyArray = Cipher.pbkdf2(password: password, salt: salt, keyByteCount: PBE_DKLEN, round: count) else { throw ICError.fail(reason: .decrypt) }
+            let devKey = Data(devKeyArray)
             let decrypted = try Cipher.decrypt(devKey: devKey, enc: enc, dkLen: PBE_DKLEN, iv: iv)
             
             if self.crypto.mac == decrypted.mac {
