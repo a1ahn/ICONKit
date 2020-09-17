@@ -111,13 +111,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B8A35A0DD8B8B8F531AC412A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		D448611624B45F1100128B3A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,7 +129,6 @@
 				D4F7BC0924B2CCA0001B9266 /* ICONKit-macos */,
 				D4E25B99212FA7C50027899B /* Products */,
 				D57DB1AC9E2D3E248AF94E46 /* Frameworks */,
-				B8A35A0DD8B8B8F531AC412A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
