@@ -83,7 +83,7 @@ extension Keystore {
                 let cipherText = crypto.ciphertext.hexToData(),
                 let salt = crypto.kdfparams.salt.hexToData() else { throw ICError.invalid(reason: .malformedKeystore) }
             
-            guard let devKey = Cipher.scrypt(password: password, saltData: salt, dkLen: crypto.kdfparams.dklen, N: n, R: r, P: p) else { throw ICError.fail(reason: .decrypt) }
+            guard let devKey = Cipher.Scrypt(password: password, saltData: salt, dkLen: crypto.kdfparams.dklen, N: n, R: r, P: p) else { throw ICError.fail(reason: .decrypt) }
             
             let decrypted = try Cipher.decrypt(devKey: devKey, enc: cipherText, dkLen: PBE_DKLEN, iv: iv)
             

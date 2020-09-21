@@ -34,6 +34,7 @@
 		D448611824B45F3100128B3A /* ICON+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448611724B45F3100128B3A /* ICON+Extension.swift */; };
 		D448611924B45F4500128B3A /* ICON+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448611724B45F3100128B3A /* ICON+Extension.swift */; };
 		D44F2F1F217EE3A5008B4D1F /* ICON+Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44F2F1E217EE3A5008B4D1F /* ICON+Address.swift */; };
+		D4521812251844610042B412 /* Scrypt in Frameworks */ = {isa = PBXBuildFile; productRef = D4521811251844610042B412 /* Scrypt */; };
 		D45D81372240C7CF0077375B /* ICON+Keystore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D81362240C7CF0077375B /* ICON+Keystore.swift */; };
 		D45D81392240D0D50077375B /* ICON+Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D81382240D0D50077375B /* ICON+Cipher.swift */; };
 		D45D813B2240DB070077375B /* ICON+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D813A2240DB070077375B /* ICON+Store.swift */; };
@@ -96,6 +97,7 @@
 				D4FD1E8F24AC8207004CE2F3 /* CryptoSwift in Frameworks */,
 				D4FF837C251354FE00D6300A /* secp256k1 in Frameworks */,
 				D4FD1E9924AC8712004CE2F3 /* BigInt in Frameworks */,
+				D4521812251844610042B412 /* Scrypt in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +236,7 @@
 				D4FD1E8E24AC8207004CE2F3 /* CryptoSwift */,
 				D4FD1E9824AC8712004CE2F3 /* BigInt */,
 				D4FF837B251354FE00D6300A /* secp256k1 */,
+				D4521811251844610042B412 /* Scrypt */,
 			);
 			productName = ICONKit;
 			productReference = D4E25B98212FA7C50027899B /* ICONKit.framework */;
@@ -293,6 +296,7 @@
 				D4FD1E8D24AC8207004CE2F3 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
 				D4FD1E9724AC8712004CE2F3 /* XCRemoteSwiftPackageReference "BigInt" */,
 				D4FF837A251354FE00D6300A /* XCRemoteSwiftPackageReference "secp256k1" */,
+				D4521810251844610042B412 /* XCRemoteSwiftPackageReference "swift-scrypt" */,
 			);
 			productRefGroup = D4E25B99212FA7C50027899B /* Products */;
 			projectDirPath = "";
@@ -522,7 +526,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ICONKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 0.5.0;
+				MARKETING_VERSION = 0.5.2;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = icon.foundation.ICONKit;
 				PRODUCT_NAME = ICONKit;
@@ -554,7 +558,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ICONKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MARKETING_VERSION = 0.5.0;
+				MARKETING_VERSION = 0.5.2;
 				PRODUCT_BUNDLE_IDENTIFIER = icon.foundation.ICONKit;
 				PRODUCT_NAME = ICONKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -663,6 +667,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D4521810251844610042B412 /* XCRemoteSwiftPackageReference "swift-scrypt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/greymass/swift-scrypt.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
 		D4FD1E8D24AC8207004CE2F3 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
@@ -690,6 +702,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D4521811251844610042B412 /* Scrypt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4521810251844610042B412 /* XCRemoteSwiftPackageReference "swift-scrypt" */;
+			productName = Scrypt;
+		};
 		D4F7BC2324B2CF88001B9266 /* CryptoSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D4FD1E8D24AC8207004CE2F3 /* XCRemoteSwiftPackageReference "CryptoSwift" */;

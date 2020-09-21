@@ -19,6 +19,7 @@ import Foundation
 import CryptoSwift
 import secp256k1
 import CommonCrypto
+import Scrypt
 
 let PBE_DKLEN: Int = 32
 
@@ -87,8 +88,7 @@ public struct Cipher {
         return (Data(decrypted).toHexString(), Data(digest).toHexString())
     }
     
-    public static func scrypt(password: String, saltData: Data? = nil, dkLen: Int = 32, N: Int = 4096, R: Int = 6, P: Int = 1) -> Data? {
-        let passwordData = password.data(using: .utf8)!
+    public static func Scrypt(password: String, saltData: Data? = nil, dkLen: Int = 32, N: Int = 4096, R: Int = 6, P: Int = 1) -> Data? {
         var salt = Data()
         if let saltValue = saltData {
             salt = saltValue
@@ -100,8 +100,7 @@ public struct Cipher {
             salt = Data(randomBytes)
         }
         
-        guard let scrypt = try? Scrypt(password: passwordData.bytes, salt: salt.bytes, dkLen: dkLen, N: N, r: R, p: P) else { return nil }
-        guard let result = try? scrypt.calculate() else { return nil }
+        guard let result = try? scrypt(password: Array(password.utf8), salt: salt.bytes, length: dkLen, N: UInt64(N), r: UInt32(R), p: UInt32(P)) else { return nil }
         
         return Data(result)
     }
