@@ -14,7 +14,8 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.3.1"),
         .package(url: "https://github.com/attaswift/BigInt.git", from: "5.0.0"),
-        .package(url: "https://github.com/a1ahn/secp256k1.git", from: "0.0.1")
+        .package(url: "https://github.com/a1ahn/secp256k1.git", from: "0.0.1"),
+        .package(url: "https://github.com/greymass/swift-scrypt.git", from: "1.0.1")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
