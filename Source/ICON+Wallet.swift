@@ -82,7 +82,3 @@ extension Wallet {
         
     }
 }
-
-extension Wallet: Storable {
-    
-}

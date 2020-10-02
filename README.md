@@ -12,7 +12,7 @@ ICON supports SDK for 3rd party or user services development. You can integrate 
 
 ## Requirements
 
-- iOS 11.0+
+- iOS 12.0+
 - Xcode 11+
 - Swift 5.2+
 
@@ -22,7 +22,7 @@ ICON supports SDK for 3rd party or user services development. You can integrate 
 
 ```
 dependencies: [
-    .package(url: "https://github.com/icontrol-team/ICONKit.git", .upToNextMajor(from: "0.5.0"))
+    .package(url: "https://github.com/icontrol-team/ICONKit.git", .upToNextMajor(from: "0.5.4"))
 ]
 ```
 
@@ -219,20 +219,11 @@ let wallet = Wallet(privateKey: privateKey)
 // Save wallet keystore.
 let wallet = Wallet(privateKey: nil)
 do {
-    try wallet.generateKeystore(password: "YOUR_WALLET_PASSWORD")
-    try wallet.save(filepath: "YOUR_STORAGE_PATH")
+    try wallet.save(filepath: "YOUR_STORAGE_PATH", passphrase: "YOUR_WALLET_PASSWORD")
 } catch {
     // handle errors
 }
-// Load a wallet from the keystore.
-do {
-    let jsonData: Data = try Data(contentsOf: "YOUR_KEYSTORE_PATH")
-    let decoder = JSONDecoder()
-    let keystore = try decoder.decoder(Keystore.self, from: jsonData)
-    let wallet = Wallet(keystore: keystore, password: "YOUR_WALLET_PASSWORD")
-} catch {
-    // handle errors
-}
+
 ```
 
 #### Creating transactions

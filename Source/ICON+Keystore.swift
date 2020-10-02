@@ -57,6 +57,13 @@ public struct Keystore: Codable {
         self.address = address
         self.crypto = crypto
     }
+    
+    public static func load(jsonData: Data, password: String) throws -> Keystore {
+        let decoder = JSONDecoder()
+        let keystore = try decoder.decode(Keystore.self, from: jsonData)
+        
+        return keystore
+    }
 }
 
 extension Keystore {

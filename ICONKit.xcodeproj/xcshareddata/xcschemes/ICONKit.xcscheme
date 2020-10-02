@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4E25B97212FA7C50027899B"
                BuildableName = "ICONKit.framework"
-               BlueprintName = "ICONKit-ios"
+               BlueprintName = "ICONKit"
                ReferencedContainer = "container:ICONKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -52,7 +52,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4E25B97212FA7C50027899B"
             BuildableName = "ICONKit.framework"
-            BlueprintName = "ICONKit-ios"
+            BlueprintName = "ICONKit"
             ReferencedContainer = "container:ICONKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
