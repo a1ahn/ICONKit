@@ -18,7 +18,6 @@
 import Foundation
 
 public protocol Storable {
-    var keystore: Keystore? { get set }
 }
 
 extension Storable where Self: Wallet {
@@ -26,27 +25,11 @@ extension Storable where Self: Wallet {
     ///
     /// - Parameter filepath: A path for file.
     /// - Throws: Throw an error if keystore is nil.
-    public func save(filepath: URL) throws {
-        guard let keystore = self.keystore else { throw ICError.emptyKeystore }
+    public func save(filepath: URL, passphrase: String) throws {
+        let keystore = try self.generateKeystore(password: passphrase)
         
         let data = try keystore.jsonData()
         
         try data.write(to: filepath)
-    }
-    
-    /// Load keystore from JSON data
-    ///
-    /// - Parameter keystore: Data encoded as JSON
-    /// - Throws: Throw an error if keystore is malfored.
-    public mutating func load(raw keystore: Data) throws {
-        let decoder = JSONDecoder()
-        
-        self.keystore = try decoder.decode(Keystore.self, from: keystore)
-    }
-    
-    public mutating func load(path: URL) throws {
-        let data = try Data(contentsOf: path)
-        
-        try self.load(raw: data)
     }
 }

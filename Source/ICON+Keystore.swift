@@ -16,7 +16,6 @@
  */
 
 import Foundation
-//import scrypt
 import CryptoSwift
 
 public struct Keystore: Codable {
@@ -112,7 +111,7 @@ extension Wallet {
         return 1
     }
     
-    public func generateKeystore(password: String) throws {
+    public func generateKeystore(password: String) throws -> Keystore {
         let prvKey = self.key.privateKey.data
         let address = Cipher.makeAddress(self.key.privateKey, self.key.publicKey)
         
@@ -132,6 +131,6 @@ extension Wallet {
         
         let keystore = Keystore(address: address, crypto: crypto)
         
-        self.keystore = keystore
+        return  keystore
     }
 }

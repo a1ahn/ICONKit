@@ -25,7 +25,6 @@ import CryptoSwift
 open class Wallet {
     public let key: KeyPair
     public let address: String
-    public var keystore: Keystore?
     
     private init(privateKey: PrivateKey) {
         let publicKey = Cipher.createPublicKey(privateKey: privateKey)!
@@ -53,7 +52,6 @@ extension Wallet {
         guard address == keystore.address else { throw ICError.invalid(reason: .wrongPassword) }
         
         self.init(privateKey: extracted)
-        self.keystore = keystore
     }
     
     public class func generatePrivateKey() -> PrivateKey {
