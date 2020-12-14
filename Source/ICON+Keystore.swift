@@ -124,10 +124,9 @@ extension Wallet {
         
         let salt = try Cipher.randomData(count: 32)
         
-        let scrypt = try Scrypt(password: password.bytes, salt: salt.bytes, dkLen: 32, N: N_STANDARD, r: R_STANDARD, p: P_STANDARD)
-        let derivedKey = try scrypt.calculate()
+        guard let derivedKey = Cipher.Scrypt(password: password, saltData: salt, dkLen: PBE_DKLEN, N: N_STANDARD, R: R_STANDARD, P: P_STANDARD) else { throw ICError.message(error: "Key modular failed") }
         
-        let encrypted = try Cipher.encrypt(devKey: Data(derivedKey), data: prvKey, salt: salt)
+        let encrypted = try Cipher.encrypt(devKey: derivedKey, data: prvKey, salt: salt)
         
         let cipherParams = Keystore.CipherParams(iv: encrypted.iv)
         var kdfParams = Keystore.KDF(dklen: PBE_DKLEN, salt: salt.hexEncodedString())
